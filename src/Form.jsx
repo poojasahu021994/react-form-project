@@ -40,7 +40,7 @@ const Form =()=>{
         <label htmlFor="">Number</label>
         <input type="number" name="number" value={inputname.value} onChange={hinput}/><br></br><br></br>
 
-        <input type="submit"/>
+        <input className="btn" type="submit"/>
         </form>
         </>
     )
